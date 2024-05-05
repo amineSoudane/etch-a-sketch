@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    flex: 1;
+}
+
+.board-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board {
+    border: 2px solid blue;
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+
+.container .aside {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.credits, #message {
+    margin-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
